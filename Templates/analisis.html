@@ -1,0 +1,188 @@
+<!-- Universidad Autónoma Metropolitana-->
+<!-- Unidad Cuajimalpa -->
+<!-- Licenciatura en Tecnologías y Sistemas de Información -->
+<!-- UEA: Laboratorio Tematico IV -->
+<!-- Profesora: Gabriela Ramírez de la Rosa -->
+<!-- Equipo: Tematic Theam -->
+<!-- Integrantes: Cruz Estrada Luis Guillermo
+			    García Zepeda Juan Carlos
+			    Martínez Garay Ximena Itzel
+			    Martínez Ruiz Alan
+			    Valadez Vazquez Lucia -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Titulo de nuestra página -->
+    <title>Analisis</title>
+    <!-- -->
+    <!-- Estas líneas nos sirven para obtener los css y así poder darle estilo a nuetsra página-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/css3.css')}}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js"></script>
+
+
+</head>
+
+<body>
+
+    <!-- Cabecera de página -->
+    <header class="header">
+        <!-- Barra de navegación -->
+        <nav class="navbar">
+            <ul>
+                <!-- Cada link nos dirigira a una pagian diferente -->
+
+                <!-- Nos manda a nuestra página de inicio-->
+                <li><a href="/">Inicio</a></li>
+                <!-- Nos manda a nuestra página principal -->
+                <li><a href="{{ url_for('principal1') }}">Principal</a></li>
+                <!-- Nos manda a una página que describe el proyecto -->
+                <li><a href="{{ url_for('nuestroProyecto') }}">Nuestro Proyecto</a></li>
+                <!-- Nos manda a una pagina donde se encontrarán los datos de la institución y de los integrantes del equipo -->
+                <!--<li><a href="about.asp">Contacto</a></li>-->
+            </ul>
+        </nav>
+    </header>
+    <!-- Inicia nuestro contenedor principal -->
+
+
+
+    <div class="grafica" style="border:1px solid #000000;">
+        <h1>Gráfico</h1>
+        <div id="laGrafica">
+
+            <!-- Insertamos una imagen representativa del resultado original -->
+            <canvas id="myChart"> Tu buscador no soporta Canvas.js</canvas>
+
+
+            <!-- insertando datos de los resultados -->
+            {% block content %}
+        </div>
+
+        <h3>Total de mensajes:<br> {{ totalMensajes }} </h3>
+        <h3>Total de mensajes agresivos:<br> {{ totalAgresiones }} </h3>
+        <h3>Porcentaje de mensajes agresivos con respecto al total de mensajes:<br> {{ porcentaje }}% </h3>
+
+    </div>
+
+    <div class="rangos">
+        <h1> Rangos de Agresión </h1>
+        <p id="a" class="uno"> De 1 a 5 mensajes agresivos -----> Agresividad Pasiva</p>
+        <p id="b" class="dos"> De 5 a 10 mensajes agresivos -----> Agresividad Preocupante</p>
+        <p id="c" class="tres"> Más de 10 mensajes agresivos -----> Agresividad Alarmante</p>
+
+    </div>
+
+    <div class="victima">
+        <h1> Víctima: {{ usuarioVictima }} </h1>
+        <!-- Insertamos una imagen representativa de la victima-->
+        <img class="imagena" src="{{ url_for('static', filename='imagenes/va.png') }}">
+
+    </div>
+
+    <!-- Contenedor 4, nos muetsra al agresor -->
+    <div class="agresor">
+        <h1> Agresor: {{ usuarioAgresor }} </h1>
+
+        {% endblock %}
+        <!-- Insertamos una imagen representativa del agresor -->
+        <img class="imagena" src="{{ url_for('static', filename='imagenes/va.png') }}">
+
+    </div>
+
+
+
+    <!-- AQUI IBA EL ENLACE AL CHAT DESDE LA PAGINA DE ANALISIS -->
+
+    <!-- Aquí esta nuestro pie de pagina -->
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4> Teléfono </h4>
+                <p> 5814 6500 </p>
+            </div>
+            <div class="content-foo">
+                <h4> Web </h4>
+                <p> www.cua.uam.mx </p>
+            </div>
+            <div class="content-foo">
+                <h4> Ubicación </h4>
+                <p> Av. Vasco de Quiroga 4871, Cuajimalpa de Morelos, CDMX </p>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy; Tematic Theam | Laboratorio Temático IV </h2>
+    </footer>
+</body>
+
+
+
+<script>
+    var myChart = document.getElementById('myChart').getContext('2d');
+
+    var data1 = ["{{totalMensajes}}"];
+    var data2 = ["{{totalAgresiones}}"];
+
+    let myChart1 = new Chart(myChart, {
+        type: "pie",
+        data: {
+            datasets: [{
+                label: "Mensajes no Agresivos",
+                data: data1,
+                backgroundColor: "Red"
+
+            }, {
+                label: 'Mensajes Agresivos',
+                data: data2,
+                backgroundColor: "Blue"
+
+            }],
+
+
+            options: {
+                plugins: {
+                    legend: {
+                        display: true,
+                        text: "Porcentaje de Resultados",
+                        position: 'right',
+                        responsive: true,
+                        labels: {
+                            color: 'green',
+                            textAlign: 'center'
+                        }
+                    }
+                }
+            }
+
+        }
+
+    });
+
+    /*  Función que le da color de manera dínamica al rango de agresión */
+    var agresion = "{{ totalAgresiones}}";
+    console.log(agresion);
+
+
+    if (agresion < 5) {
+        var x = document.querySelector("#a");
+        x.classList.remove("uno");
+        x.classList.add("cuatro");
+        console.log(x);
+    } else if (agresion < 10) {
+        var y = document.querySelector("#b");
+        y.classList.remove("dos");
+        y.classList.add("cuatro");
+        console.log(y);
+    } else if (agresion > 10) {
+        var z = document.querySelector("#c");
+        z.classList.remove("tres");
+        z.classList.add("cuatro");
+        console.log(z);
+    }
+</script>
+
+
+</html>

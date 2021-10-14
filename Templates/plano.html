@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Analizador de texto</title>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}">
+
+
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="navbar">
+            <ul>
+                <li><a href="/">Inicio</a></li>
+                <!-- agregar una pagina "acerca de" en lugar del # -->
+                <li><a href="{{ url_for('nuestroProyecto') }}">Nuestro Proyecto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="login">
+        <h1>Analizador de texto</h1>
+        <p>Introduce la linea de texto a analizar</p>
+        <form action="{{ url_for('predict')}}" method="POST">
+            <textarea name="message"></textarea>
+            <br> </br>
+            <button type="submit" class="btn btn-primary btn-block btn-large">Analizar</button>
+            <div class="results">
+
+                {% if prediction == [0]%}
+                <h3 style="color:green;"><b>NO SE DETECTO UNA AGRESION!</b></h2>
+                    {% elif prediction == [1]%}
+                    <h3 style="color:red;"><b>SE DETECTO UNA AGRESION!</b></h2>
+                        {% endif %}
+                        <a href="{{ url_for('principal1') }}" class="buttons">Regresar</a>
+            </div>
+
+        </form>
+
+
+    </div>
+
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h5> Telefono </h5>
+                <p> 5814 6500 </p>
+            </div>
+            <div class="content-foo">
+                <h5> Web </h5>
+                <p> www.cua.uam.mx </p>
+            </div>
+            <div class="content-foo">
+                <h5> Ubicacion </h5>
+                <p> Av. Vasco de Quiroga 4871, Cuajimalpa de Morelos, CDMX </p>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy; Tematic Theam | Laboratorio Tematico IV </h2>
+    </footer>
+</body>
+
+</html>

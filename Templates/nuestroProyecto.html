@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio tematico iv</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/normalize.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/nuestroProyecto.css')}}">
+
+</head>
+
+<body>
+    <div id="contenedor">
+        <header class="header">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="/">Inicio</a></li>
+                    <li><a href="{{ url_for('principal1') }}">Principal</a></li>
+
+                    <li><a href="{{ url_for('nuestroProyecto') }}">Nuestro Proyecto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="contenido">
+
+            <br><br>
+            <h1>Descripción</h1>
+            <p>La violencia online (o violencia viral) es la que se produce a través del uso cotidiano de las tecnologías de la información y la comunicación.
+            </p>
+            <p>
+                Las agresiones verbales en las redes sociales son cotidianas. Afectan a famosos e ignotos, adolescentes y adultos. Son tantos los comentarios hirientes, discriminatorios o violentos que la tendencia ya tiene nombre: Fenómeno Hater (odiador).
+            </p>
+            <p>
+                Se manifiesta con toda su fuerza en internet y cala más hondo en los jóvenes que, por transitar una etapa evolutiva aún inmadura, en plena construcción de su personalidad, son más vulnerables y cuentan con menos herramientas psicoemocionales que algunos
+                adultos para hacerles frente a las críticas destructivas. Sin embargo, el fenómeno es mucho más que una problemática en las redes.
+            </p>
+            <h1>Propósito del proyecto</h1>
+            <p>Lo que buscamos como estudiantes es crear un sistema para detectar cuando un usuario está siendo agresivo y de esta forma que los agredidos tengan pruebas suficientes para confirmar la agresión. Ya que cualquier persona puede ser agresiva,
+                cualquier persona puede consultar la agresividad de una conversación.
+            </p>
+
+        </div>
+
+        <footer>
+            <div class="contenedor-footer">
+                <div class="content-foo">
+                    <h4> Telefono </h4>
+                    <p> 5814 6500 </p>
+                </div>
+                <div class="content-foo">
+                    <h4> Web </h4>
+                    <p> www.cua.uam.mx </p>
+                </div>
+                <div class="content-foo">
+                    <h4> Ubicacion </h4>
+                    <p> Av. Vasco de Quiroga 4871, Cuajimalpa de Morelos, CDMX </p>
+                </div>
+            </div>
+            <h2 class="titulo-final">&copy; Tematic Theam | Laboratorio Tematico IV </h2>
+        </footer>
+
+</body>
+
+</html>

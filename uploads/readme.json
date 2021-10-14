@@ -1,0 +1,83 @@
+{
+  "participants": [
+    {
+      "name": "Juan C. Zepeda"
+    },
+    {
+      "name": "William Cruz Estrada"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "William Cruz Estrada",
+      "timestamp_ms": 1623109996185,
+      "audio_files": [
+        {
+          "uri": "messages/inbox/juanczepeda_1jyfmyyicw/audio/audioclip162310999300022964_510384180109363.mp4",
+          "creation_timestamp": 1623109993
+        }
+      ],
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "William Cruz Estrada",
+      "timestamp_ms": 1623109970768,
+      "audio_files": [
+        {
+          "uri": "messages/inbox/juanczepeda_1jyfmyyicw/audio/audioclip162310996800027654_1020056951859701.mp4",
+          "creation_timestamp": 1623109968
+        }
+      ],
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "William Cruz Estrada",
+      "timestamp_ms": 1623109939632,
+      "audio_files": [
+        {
+          "uri": "messages/inbox/juanczepeda_1jyfmyyicw/audio/audioclip162310993700039589_325298479076138.mp4",
+          "creation_timestamp": 1623109937
+        }
+      ],
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "Juan C. Zepeda",
+      "timestamp_ms": 1623108324456,
+      "content": "Te voy a matar pinche puto, m\u00c3\u00a1s al rato lo checo",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "William Cruz Estrada",
+      "timestamp_ms": 1623108177331,
+      "content": "Te voy a partir tu madre pinche maricon, a tu casa\u00c3\u00a1s bien el proyecto final de integraci\u00c3\u00b3n de sistemas, con la interfaz incluida",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "William Cruz Estrada",
+      "timestamp_ms": 1623108139283,
+      "content": "Te mand\u00c3\u00a9 ya la interfaz",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "William Cruz Estrada",
+      "timestamp_ms": 1623108123725,
+      "content": "We",
+      "type": "Generic",
+      "is_unsent": false
+    }
+  ],
+  "title": "Juan C. Zepeda",
+  "is_still_participant": true,
+  "thread_type": "Regular",
+  "thread_path": "inbox/juanczepeda_1jyfmyyicw",
+  "magic_words": [
+    
+  ]
+}

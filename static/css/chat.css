@@ -1,0 +1,145 @@
+body {
+    font-family: Cambria;
+    background-color: #AED6F1;
+    /*para hacer la pagina auto-ajustable*/
+    font-size: calc(1em + 1vw);
+    line-height: 1em;
+    padding: 1em;
+    margin: 1em;
+}
+
+
+/*Barra de navegación*/
+
+.header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: #25557A;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 1.5em;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
+
+.container {
+    text-align: center;
+    float: right;
+}
+
+.titulo {
+    width: 80%;
+    margin-top: 10%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.contenedor {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.noAgresiva {
+    background-color: #6FB1ED;
+    border-radius: 5px;
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin: 10px;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.agresiva {
+    background-color: #D11D12;
+    color: white;
+    border: solid 4px black;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 18px;
+    padding: 20px;
+}
+
+
+/* Aquí es para darle más formato al chat*/
+
+
+/*Estilos de pie de pagina*/
+
+footer {
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: #12293B;
+    color: black;
+    overflow: hidden;
+}
+
+.contenedor-footer {
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 10px;
+    border-bottom: 1px, solid darkgray;
+}
+
+.content-foo {
+    text-align: auto;
+}
+
+.content-foo h4 {
+    font-size: 18px;
+    text-align: left-side;
+    color: #d3d3d3;
+    border-bottom: 2px solid cyan;
+    padding-left: 2px;
+    margin-bottom: 2px;
+}
+
+.content-foo p {
+    color: #d3d3d3;
+    font-size: 14px;
+}
+
+.titulo-final {
+    text-align: center;
+    font-size: 19px;
+    margin: 3px 0 0 0;
+    color: #d3d3d3;
+    bottom: 0;
+}
+
+footer a {
+    color: #FBEDFF;
+}

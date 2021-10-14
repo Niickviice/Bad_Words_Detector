@@ -1,0 +1,102 @@
+<!-- Universidad Autónoma Metropolitana-->
+<!-- Unidad Cuajimalpa -->
+<!-- Licenciatura en Tecnologías y Sistemas de Información -->
+<!-- UEA: Laboratorio Tematico IV -->
+<!-- Profesora: Gabriela Ramírez de la Rosa -->
+<!-- Equipo: Tematic Theam -->
+<!-- Integrantes: Cruz Estrada Luis Guillermo
+			    García Zepeda Juan Carlos
+			    Martínez Garay Ximena Itzel
+			    Martínez Ruiz Alan
+			    Valadez Vazquez Lucia -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Principal</title>
+    <!-- Estas líneas nos sirven para obtener los css y así poder darle estilo a nuetsra página-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/normalize.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/css25.css')}}">
+</head>
+
+<body>
+    <!-- Cabecera de página -->
+    <header class="header">
+        <!-- Barra de navegación -->
+        <nav class="navbar">
+            <ul>
+                <!-- Cada link nos dirigira a una pagian diferente -->
+
+                <!-- Nos manda a la misma página -->
+                <li><a href="/">Inicio</a></li>
+                <!-- Nos manda a nuestra pagina principal -->
+                <li><a href="{{ url_for('principal1') }}">Principal</a></li>
+                <!-- Nos manda a una página que describe el proyecto -->
+                <li><a href="{{ url_for('nuestroProyecto') }}">Nuestro Proyecto</a></li>
+                <!-- Nos manda a una pagina donde se encontrarán los datos de la institución y de los integrantes del equipo -->
+                <!--<li><a href="about.asp">Contacto</a></li>-->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Inicia nuestro contenedor principal -->
+    <div id="cero">
+        <article>
+            <!-- Inicia el primero de nuestros contenedores secundarios -->
+            <div id="izquierda">
+
+                <h1>Instructivo</h1>
+                <p>
+                    <ol>
+                        <li value="1"> Dar click en elegir archivo.</li>
+                        <li value="2">Seleccionar tu archivo desde el explorador de archivos.</li>
+                        <li value="3">Dar clik en subir archivo y esperar analisis</li>
+                    </ol>
+                </p>
+            </div>
+            <!-- Inicia el segundo de nuestros contenedores secundarios -->
+            <div id="derecha">
+                <h1>Cargar archivo</h1>
+                <!-- Inicia el tercero de nuestros contenedores -->
+                <div id="tres">
+                    <!-- Colocamos una imagen referente al tema que se esta tomando -->
+                    <img class="subir" src="{{ url_for('static', filename='imagenes/upload.png') }}">
+                </div>
+                <br>
+               <!-- se cambio la forma de subir el archivo por lo siguiente -->
+                <form method = "POST" enctype="multipart/form-data">
+                    <input type = "file" name = "ourfile">
+                    <input type = "submit" value = "subir archivo">
+                </form>
+                <br><br>
+            </div>
+            <br><br>
+            <a href="{{ url_for('secciones') }}" class="buttons">Regresar</a>
+        </article>
+    </div>
+
+    <!-- Aquí esta nuestro pie de pagina -->
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4> Telefono </h4>
+                <p> 5814 6500 </p>
+            </div>
+            <div class="content-foo">
+                <h4> Web </h4>
+                <p> www.cua.uam.mx </p>
+            </div>
+            <div class="content-foo">
+                <h4> Ubicacion </h4>
+                <p> Av. Vasco de Quiroga 4871, Cuajimalpa de Morelos, CDMX </p>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy; Tematic Theam | Laboratorio Tematico IV </h2>
+    </footer>
+
+</body>
+
+</html>

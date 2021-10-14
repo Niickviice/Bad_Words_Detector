@@ -1,0 +1,200 @@
+/*Universidad Autónoma Metropolitana
+Unidad Cuajimalpa
+Licenciatura en Tecnologías y Sistemas de Información
+UEA: Laboratorio Tematico IV
+Profesora: Gabriela Ramírez de la Rosa
+Equipo: Tematic Theam
+Integrantes: Cruz Estrada Luis Guillermo
+			    García Zepeda Juan Carlos
+			    Martínez Garay Ximena Itzel
+			    Martínez Ruiz Alan
+			    Valadez Vazquez Lucia*/
+
+
+/* Estilos para la página principal */
+
+body {
+    background-color: #AED6F1;
+    font-size: 15px;
+    font-family: Cambria;
+}
+
+
+/*Barra de navegación*/
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #25557A;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    font-size: 1.5em;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
+
+
+/* Estilos para los contenedores */
+
+#cero {
+    font-size: 1.5em;
+    display: inline-block;
+    background: #AED6F1;
+    color: black;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 200px;
+}
+
+#izquierda {
+    margin-top: 45px;
+    margin-left: 5%;
+    background-color: #407ead;
+    float: left;
+    width: 45%;
+    height: 430px;
+    border-radius: 35px 0px 35px 0px;
+    -moz-border-radius: 35px 0px 35px 0px;
+    -webkit-border-radius: 35px 0px 35px 0px;
+    border: 2px solid #5878ca;
+}
+
+#derecha {
+    margin-top: 45px;
+    margin-right: 5%;
+    background-color: #407ead;
+    float: right;
+    width: 43%;
+    height: 430px;
+    border-radius: 35px 0px 35px 0px;
+    -moz-border-radius: 35px 0px 35px 0px;
+    -webkit-border-radius: 35px 0px 35px 0px;
+    border: 2px solid #5878ca;
+}
+
+.subir {
+    width: 100px;
+    height: 100px;
+}
+
+#tres {
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+input {
+    font-size: 20px;
+}
+
+button {
+    font-size: 20px;
+}
+
+.button {
+    background-color: #2574DB;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.buttons {
+    margin-top: 5%;
+    background-color: #2574DB;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 35%;
+    margin-left: 35%;
+}
+
+
+/*Estilos para el pie de pagina*/
+
+footer {
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: #12293B;
+    color: black;
+    overflow: hidden;
+}
+
+.contenedor-footer {
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 10px;
+    border-bottom: 1px, solid darkgray;
+}
+
+.content-foo {
+    text-align: auto;
+}
+
+.content-foo h4 {
+    font-size: 18px;
+    text-align: left-side;
+    color: #d3d3d3;
+    border-bottom: 2px solid cyan;
+    padding-left: 2px;
+    margin-bottom: 2px;
+}
+
+.content-foo p {
+    color: #d3d3d3;
+    font-size: 14px;
+}
+
+.titulo-final {
+    text-align: center;
+    font-size: 19px;
+    margin: 3px 0 0 0;
+    color: #d3d3d3;
+    bottom: 0;
+}
+
+footer a {
+    color: #FBEDFF;
+}

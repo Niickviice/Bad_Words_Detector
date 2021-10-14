@@ -1,0 +1,627 @@
+{
+  "participants": [
+    {
+      "name": "William Cruz Estrada"
+    },
+    {
+      "name": "Juan C. Zepeda"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "Juan C. Zepeda",
+      "timestamp_ms": 1620441546402,
+      "content": "La bronca es que los mensajes est\u00c3\u00a1n dentro de divs y no de etiquetas p como te dec\u00c3\u00ada",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "Juan C. Zepeda",
+      "timestamp_ms": 1620441518503,
+      "content": "El que te envi\u00c3\u00a9 de HTML de Facebook si lo pude leer bien pero quiero ver otras opciones",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "Juan C. Zepeda",
+      "timestamp_ms": 1620441484633,
+      "content": "Porfa we, y dile tambi\u00c3\u00a9n si puede generar uno en XML o json para ver c\u00c3\u00b3mo son y ver cu\u00c3\u00a1l es m\u00c3\u00a1s f\u00c3\u00a1cil de manejar",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "William Cruz Estrada",
+      "timestamp_ms": 1620441422000,
+      "content": "Si we",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "Juan C. Zepeda",
+      "timestamp_ms": 1620441384662,
+      "content": "Oye we le puedes decir al Alan que te envi\u00c3\u00a9 su conversaci\u00c3\u00b3n en HTML del telegram?",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "Juan C. Zepeda",
+      "timestamp_ms": 1620355774776,
+      "content": "Jaja no mames o compro ese juego o como un mes XD",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "William Cruz Estrada",
+      "timestamp_ms": 1620353187741,
+      "content": "Ya salio",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "William Cruz Estrada",
+      "timestamp_ms": 1620353184609,
+      "content": "Lo vas a comprar?",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "William Cruz Estrada",
+      "timestamp_ms": 1620353176185,
+      "content": "William envi\u00c3\u00b3 un archivo adjunto.",
+      "share": {
+        "link": "https://www.facebook.com/PhillipChuJoy/posts/342034787283492"
+      },
+      "type": "Share",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "Juan C. Zepeda",
+      "timestamp_ms": 1620346091288,
+      "content": "ese creo que va a ser la mayor parte del trabajo",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "Juan C. Zepeda",
+      "timestamp_ms": 1620346038066,
+      "content": "sale we, igual si terminas eso antes estaria chido que vieras el video de como usar flask para que veas como se integra la info al template de html",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "William Cruz Estrada",
+      "timestamp_ms": 1620345806848,
+      "audio_files": [
+        {
+          "uri": "messages/inbox/williamcruzestrada_bf-es4mmza/audio/audioclip162034580600011169_539697767408801.mp4",
+          "creation_timestamp": 1620345806
+        }
+      ],
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "William Cruz Estrada",
+      "timestamp_ms": 1620345794116,
+      "audio_files": [
+        {
+          "uri": "messages/inbox/williamcruzestrada_bf-es4mmza/audio/audioclip162034579300059882_275976674191091.mp4",
+          "creation_timestamp": 1620345793
+        }
+      ],
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "Juan C. Zepeda",
+      "timestamp_ms": 1620345737629,
+      "content": "pero en cuanto tengas instalado eso me avisas e igual a ver si puedo echarte la mano",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "Juan C. Zepeda",
+      "timestamp_ms": 1620345716015,
+      "content": "si we, ahorita ando adelantando tareas de las ueas que llevo con zepeda y el fin ya me pongo a revisar lo de integracion porque aun no lo veo",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "William Cruz Estrada",
+      "timestamp_ms": 1620344472956,
+      "audio_files": [
+        {
+          "uri": "messages/inbox/williamcruzestrada_bf-es4mmza/audio/audioclip162034447100042793_131557155630088.mp4",
+          "creation_timestamp": 1620344471
+        }
+      ],
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "William Cruz Estrada",
+      "timestamp_ms": 1620344426353,
+      "audio_files": [
+        {
+          "uri": "messages/inbox/williamcruzestrada_bf-es4mmza/audio/audioclip162034442400059835_819799118651855.mp4",
+          "creation_timestamp": 1620344424
+        }
+      ],
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "William Cruz Estrada",
+      "timestamp_ms": 1620344364354,
+      "audio_files": [
+        {
+          "uri": "messages/inbox/williamcruzestrada_bf-es4mmza/audio/audioclip162034436200021896_491968572118934.mp4",
+          "creation_timestamp": 1620344362
+        }
+      ],
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "Juan C. Zepeda",
+      "timestamp_ms": 1620338772834,
+      "content": "Oye we como vas con lo de los datos en python?",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "Juan C. Zepeda",
+      "timestamp_ms": 1620159971957,
+      "content": "Si te das cuenta los mensajes son los \u00c3\u00banicos que est\u00c3\u00a1n en etiquetas p",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "Juan C. Zepeda",
+      "timestamp_ms": 1620159955557,
+      "content": "Lo que iba a ver es do hay un m\u00c3\u00a9todo para sacar \u00c3\u00banicamente los p\u00c3\u00a1rrafos que son los mensajes",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "Juan C. Zepeda",
+      "timestamp_ms": 1620159931767,
+      "content": "Obviamente va a estar m\u00c3\u00a1s sencillo analizar as\u00c3\u00ad",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "Juan C. Zepeda",
+      "timestamp_ms": 1620159919897,
+      "content": "Pero eso es en XML we",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "William Cruz Estrada",
+      "timestamp_ms": 1620156493674,
+      "photos": [
+        {
+          "uri": "messages/inbox/williamcruzestrada_bf-es4mmza/photos/180132983_807947306498690_6317422124452931308_n_807947303165357.png",
+          "creation_timestamp": 1620156492
+        }
+      ],
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "William Cruz Estrada",
+      "timestamp_ms": 1620156492042,
+      "content": "lo unico que se tiene como referencia es esto",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "William Cruz Estrada",
+      "timestamp_ms": 1620156476621,
+      "content": "hay que ver si esa que ma pasaste nos sirve",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "William Cruz Estrada",
+      "timestamp_ms": 1620156401431,
+      "content": "y es que la bronca es que no te deja descargar una conversacion de prueba para ver como las esta usando",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "William Cruz Estrada",
+      "timestamp_ms": 1620156384141,
+      "photos": [
+        {
+          "uri": "messages/inbox/williamcruzestrada_bf-es4mmza/photos/180392590_1172750843185376_4063953010655164752_n_1172750836518710.png",
+          "creation_timestamp": 1620156382
+        }
+      ],
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "William Cruz Estrada",
+      "timestamp_ms": 1620156320262,
+      "content": "esta bien cagada la conversacion",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "William Cruz Estrada",
+      "timestamp_ms": 1620156312777,
+      "photos": [
+        {
+          "uri": "messages/inbox/williamcruzestrada_bf-es4mmza/photos/180948041_928419321316929_3755434549123214686_n_928419314650263.png",
+          "creation_timestamp": 1620156311
+        }
+      ],
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "William Cruz Estrada",
+      "timestamp_ms": 1620156295570,
+      "photos": [
+        {
+          "uri": "messages/inbox/williamcruzestrada_bf-es4mmza/photos/179799069_465100131374160_6781332404715916813_n_465100124707494.png",
+          "creation_timestamp": 1620156293
+        }
+      ],
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "William Cruz Estrada",
+      "timestamp_ms": 1620156291259,
+      "content": "aqui esta mas simple la conversacion",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "William Cruz Estrada",
+      "timestamp_ms": 1620156274394,
+      "photos": [
+        {
+          "uri": "messages/inbox/williamcruzestrada_bf-es4mmza/photos/181600731_157011739611941_8607931035302879199_n_157011732945275.png",
+          "creation_timestamp": 1620156273
+        }
+      ],
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "William Cruz Estrada",
+      "timestamp_ms": 1620156250550,
+      "content": "creo igual esto ya lo viste",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "William Cruz Estrada",
+      "timestamp_ms": 1620156245845,
+      "content": "esto es el reusltdo final",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "William Cruz Estrada",
+      "timestamp_ms": 1620156242406,
+      "photos": [
+        {
+          "uri": "messages/inbox/williamcruzestrada_bf-es4mmza/photos/181002941_524136532330851_4526253278420044918_n_524136528997518.png",
+          "creation_timestamp": 1620156241
+        }
+      ],
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "William Cruz Estrada",
+      "timestamp_ms": 1620156199896,
+      "content": "es que se tarda un buen en analizar su cochinada",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "William Cruz Estrada",
+      "timestamp_ms": 1620156185611,
+      "content": "mira deja te paso como el que tiene la profa",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "William Cruz Estrada",
+      "timestamp_ms": 1620156120482,
+      "content": "tiene muchos divs",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "William Cruz Estrada",
+      "timestamp_ms": 1620156115231,
+      "photos": [
+        {
+          "uri": "messages/inbox/williamcruzestrada_bf-es4mmza/photos/179137017_176722224318790_7771975691840052963_n_176722220985457.png",
+          "creation_timestamp": 1620156113
+        }
+      ],
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "William Cruz Estrada",
+      "timestamp_ms": 1620156095080,
+      "content": "se ve complejo",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "William Cruz Estrada",
+      "timestamp_ms": 1620156085625,
+      "content": "verde we",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "Juan C. Zepeda",
+      "timestamp_ms": 1620079748899,
+      "content": "asi son los mensajes en html",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "Juan C. Zepeda",
+      "timestamp_ms": 1620079741967,
+      "content": "checa we",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "Juan C. Zepeda",
+      "timestamp_ms": 1620079736765,
+      "files": [
+        {
+          "uri": "messages/inbox/williamcruzestrada_bf-es4mmza/files/message_1_505257560512127.html",
+          "creation_timestamp": 1620079736
+        }
+      ],
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "William Cruz Estrada",
+      "timestamp_ms": 1620004720247,
+      "content": "William te llam\u00c3\u00b3.",
+      "call_duration": 5911,
+      "type": "Call",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "William Cruz Estrada",
+      "timestamp_ms": 1620002201561,
+      "content": "https://programminghistorian.org/es/lecciones/crear-y-ver-archivos-html-con-python",
+      "share": {
+        "link": "https://programminghistorian.org/es/lecciones/crear-y-ver-archivos-html-con-python"
+      },
+      "type": "Share",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "Juan C. Zepeda",
+      "timestamp_ms": 1620001244026,
+      "photos": [
+        {
+          "uri": "messages/inbox/williamcruzestrada_bf-es4mmza/photos/181139920_311563243693493_6874810658118132328_n_311563240360160.png",
+          "creation_timestamp": 1620001242
+        }
+      ],
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "Juan C. Zepeda",
+      "timestamp_ms": 1620001023093,
+      "photos": [
+        {
+          "uri": "messages/inbox/williamcruzestrada_bf-es4mmza/photos/181882732_256189489293393_8548163100304098689_n_256189482626727.png",
+          "creation_timestamp": 1620001021
+        }
+      ],
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "Juan C. Zepeda",
+      "timestamp_ms": 1620000051956,
+      "photos": [
+        {
+          "uri": "messages/inbox/williamcruzestrada_bf-es4mmza/photos/180252518_169853518373911_497167206540469711_n_169853515040578.png",
+          "creation_timestamp": 1620000050
+        }
+      ],
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "William Cruz Estrada",
+      "timestamp_ms": 1619997549390,
+      "content": "William te llam\u00c3\u00b3.",
+      "call_duration": 508,
+      "type": "Call",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "Juan C. Zepeda",
+      "timestamp_ms": 1619997390858,
+      "photos": [
+        {
+          "uri": "messages/inbox/williamcruzestrada_bf-es4mmza/photos/181173047_372680944062078_6607882934543751351_n_372680940728745.png",
+          "creation_timestamp": 1619997389
+        }
+      ],
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "Juan C. Zepeda",
+      "timestamp_ms": 1619996955473,
+      "content": "a ver espera",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "William Cruz Estrada",
+      "timestamp_ms": 1619996750049,
+      "content": "Esp\u00c3\u00a9rame para que veamos bien como vamos a proseguir con esto",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "William Cruz Estrada",
+      "timestamp_ms": 1619996728921,
+      "content": "A muy bien",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "William Cruz Estrada",
+      "timestamp_ms": 1619996715314,
+      "content": "Permame",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "William Cruz Estrada",
+      "timestamp_ms": 1619996705619,
+      "content": "La p\u00c3\u00a1gina es la que te digo que me gusta ver si ya te regresa alg\u00c3\u00ban resultado",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "Juan C. Zepeda",
+      "timestamp_ms": 1619996691968,
+      "content": "quieres hacer llamada?",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "Juan C. Zepeda",
+      "timestamp_ms": 1619996676329,
+      "content": "eso que me pasaste ya sirve para mostrarlo en pantalla",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "Juan C. Zepeda",
+      "timestamp_ms": 1619996663918,
+      "content": "yo ya estoy con lo del subir el archivo we",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "Juan C. Zepeda",
+      "timestamp_ms": 1619996658178,
+      "photos": [
+        {
+          "uri": "messages/inbox/williamcruzestrada_bf-es4mmza/photos/181055355_900323000788475_8787492932488399401_n_900322994121809.png",
+          "creation_timestamp": 1619996657
+        }
+      ],
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "William Cruz Estrada",
+      "timestamp_ms": 1619996056566,
+      "content": "Si si para ver si ahora nos encargamos de subir el archivo",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "William Cruz Estrada",
+      "timestamp_ms": 1619996044816,
+      "content": "A ver m\u00c3\u00a1ndame capturas de como te compilo we?",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "William Cruz Estrada",
+      "timestamp_ms": 1619996029917,
+      "content": "Si we",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "Juan C. Zepeda",
+      "timestamp_ms": 1619992234783,
+      "content": "y presentar los datos del resultado",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "Juan C. Zepeda",
+      "timestamp_ms": 1619992223235,
+      "content": "pues basicamente eso que tienes ahi ya es lo que tenemos que hacer, solo que faltaria leer el archivp",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "Juan C. Zepeda",
+      "timestamp_ms": 1619990635151,
+      "content": "Si we lo estoy revisando",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "William Cruz Estrada",
+      "timestamp_ms": 1619985796761,
+      "content": "Si compilo el programa que te pase we?",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "William Cruz Estrada",
+      "timestamp_ms": 1619985786210,
+      "content": "XD",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "Juan C. Zepeda",
+      "timestamp_ms": 1619978907590,
+      "content": "https://youtu.be/KsEJHsz5Avc",
+      "share": {
+        "link": "https://www.youtube.com/watch?v=KsEJHsz5Avc"
+      },
+      "type": "Share",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "Juan C. Zepeda",
+      "timestamp_ms": 1619978903589,
+      "content": "No mames jaja yo todav\u00c3\u00ada ni veo esa pel\u00c3\u00adcula",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "William Cruz Estrada",
+      "timestamp_ms": 1619943460226,
+      "content": "William envi\u00c3\u00b3 un archivo adjunto.",
+      "share": {
+        "link": "https://www.facebook.com/permalink.php?story_fbid=123301863191832&id=107445224777496"
+      },
+      "type": "Share",
+      "is_unsent": false
+    }
+  ],
+  "title": "William Cruz Estrada",
+  "is_still_participant": true,
+  "thread_type": "Regular",
+  "thread_path": "inbox/williamcruzestrada_bf-es4mmza",
+  "magic_words": [
+    
+  ]
+}
